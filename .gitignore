@@ -1,0 +1,7 @@
+.project
+.settings
+build
+build.log
+tmp
+._*
+.DS_Store
