@@ -36,7 +36,7 @@ function BaggersWindow(index, rowData, containingTab){
 	self.add(dataView);
 	
 	dataView.addEventListener('click', function(e){
-		var DetailsWindow = require('ui/common/baggers/DetailsWindow');
+		var DetailsWindow = require('/ui/common/baggers/DetailsWindow');
 		
 		containingTab.open(new DetailsWindow(e.index, city, containingTab));
 	});

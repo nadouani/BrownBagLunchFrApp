@@ -1,6 +1,6 @@
 function DetailsView(index, bagger){
     
-    var Widgets = require('ui/Widgets');
+    var Widgets = require('/ui/Widgets');
     
     var self = Ti.UI.createScrollView({
         height: Ti.UI.SIZE,

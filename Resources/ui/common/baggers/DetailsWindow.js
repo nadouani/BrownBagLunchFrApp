@@ -16,7 +16,7 @@ function DetailsWindow(index, city, containingTab) {
 	});
 	
 	var views = [];
-	var DetailsView = require('ui/common/baggers/view/DetailsView');
+	var DetailsView = require('/ui/common/baggers/view/DetailsView');
 	
     TiUtils.each(city.baggers, function(bagger, idx){
         views.push(new DetailsView(idx, bagger));

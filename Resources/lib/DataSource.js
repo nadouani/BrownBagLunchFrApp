@@ -3,7 +3,7 @@
  * Method that lists the full data
  */
 exports.listBaggers = function (){
-	Ti.include('data/baggers.js');
+	Ti.include('/data/baggers.js');
 	
 	Ti.API.info('Found ' + data.villes.length + ' cities');
 	
@@ -14,7 +14,7 @@ exports.listBaggers = function (){
  * Method that lists the full data
  */
 exports.listLocations = function (){
-	Ti.include('data/locations.js');
+	Ti.include('/data/locations.js');
 	
 	Ti.API.info('Found ' + data.locations.length + ' locations');
 	

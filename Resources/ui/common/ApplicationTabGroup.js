@@ -3,7 +3,7 @@ function ApplicationTabGroup(){
 	var self = Ti.UI.createTabGroup({});
 	
 	// Create the baggers tab
-	var CitiesWindow = require('ui/common/baggers/CitiesWindow');
+	var CitiesWindow = require('/ui/common/baggers/CitiesWindow');
 	var citiesWindow = new CitiesWindow(); 
 	var baggersTab = Ti.UI.createTab({
 		title: 'Baggers',
@@ -13,7 +13,7 @@ function ApplicationTabGroup(){
 	citiesWindow.containingTab = baggersTab;
 	
 	// Create the locations tabs
-	var LocationsWindow = require('ui/common/locations/LocationsWindow');
+	var LocationsWindow = require('/ui/common/locations/LocationsWindow');
 	var locationsWindow = new LocationsWindow();
 	var locationsTab = Ti.UI.createTab({
 		title : 'Locations',

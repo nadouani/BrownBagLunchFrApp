@@ -49,7 +49,7 @@ function CitiesWindow() {
 	self.add(dataView);
 	
 	dataView.addEventListener('click', function(e){
-		var BaggersWindow = require('ui/common/baggers/BaggersWindow');
+		var BaggersWindow = require('/ui/common/baggers/BaggersWindow');
 		self.containingTab.open(new BaggersWindow(e.index, e.rowData, self.containingTab));
 	});
 	
