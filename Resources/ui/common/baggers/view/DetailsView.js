@@ -18,20 +18,20 @@ function DetailsView(index, bagger){
         backgroundColor: 'transparent',
         layout: 'horizontal',
         height: Ti.UI.SIZE,
-        top: 4
+        top: '4dp'
     });
     self.add(topView);
 
     // Create the bagger image view
     var image = Ti.UI.createImageView({
-        image: bagger.picture.indexOf("http")===0 ? bagger.picture : ("http://www.brownbaglunch.fr/" + bagger.picture),
-        width: 80,
-        height: 80,
-        left: 2,
-        top: 2,
-        borderRadius:40,
+        image: bagger.picture.indexOf("http")===0 ? bagger.picture : (MyApp.url + bagger.picture),
+        width: '80dp',
+        height: '80dp',
+        left: '2dp',
+        top: '2dp',
+        borderRadius:'40dp',
         borderColor: MyApp.ui.colors.orange,
-        borderWidth: 2
+        borderWidth: '2dp'
     });
     topView.add(image);
     
@@ -41,8 +41,8 @@ function DetailsView(index, bagger){
         backgroundColor: 'transparent',
         width: Ti.UI.FILL,
         height: Ti.UI.SIZE,
-        left: 2,
-        top: 2
+        left: '2dp',
+        top: '2dp'
     });
     topView.add(detailsView);
     
@@ -51,27 +51,27 @@ function DetailsView(index, bagger){
         left: 0,
         font: {
             fontWeight: 'bold',
-            fontSize: 16
+            fontSize: '16dp'
         },
         text: bagger.name
     }));
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
-        font: {fontSize: 12},
+        font: {fontSize: '12dp'},
         text: bagger.bio
     }));
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
-        font: {fontSize: 12},
+        font: {fontSize: '12dp'},
         text: bagger.location
     }));
     
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
-        font: {fontSize: 12},
+        font: {fontSize: '12dp'},
         text: '@' + bagger.twitter
     }));
     
@@ -87,9 +87,9 @@ function DetailsView(index, bagger){
         layout: 'horizontal',
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
-        top: 5,
+        top: '5dp',
         left: 0,
-        bottom: 6
+        bottom: '6dp'
     });
     
     var color = null, tag = null;
@@ -102,15 +102,15 @@ function DetailsView(index, bagger){
         
         tag = Widgets.createTag({
             backgroundColor: color,
-            left: 4,
-            top: 2,
+            left: '4dp',
+            top: '2dp',
             width: Ti.UI.SIZE,
             height: Ti.UI.SIZE,
             horizontalWrap: false
         }, {
             text: ' ' + bagger.tags[i] + ' ',
-            left: 4,
-            font: {fontSize: 12},
+            left: '4dp',
+            font: {fontSize: '12dp'},
             backgroundColor: '#fff',
             opacity: 0.3,
             width: Ti.UI.SIZE,

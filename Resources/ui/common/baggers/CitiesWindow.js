@@ -28,11 +28,11 @@ function CitiesWindow() {
 		
 		image = Ti.UI.createImageView({
             backgroundColor: '#FFF',
-            height: 100,
-            image: 'http://brownbaglunch.fr/' + city.ville_img,
-            top: 6,
-            left: 6,
-            right: 6,
+            height: '100dp',
+            image: MyApp.url + city.ville_img,
+            top: '6dp',
+            left: '6dp',
+            right: '6dp',
             bottom: 0
 		});
 		row.add(image);

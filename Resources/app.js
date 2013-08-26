@@ -1,5 +1,7 @@
 // Global app object
 var MyApp = {
+    //url: 'http://brownbaglunch.fr/',
+    url: 'https://raw.github.com/nadouani/BrownBagLunch/gh-pages/',
 	osname: Ti.Platform.osname,
 	version: Ti.Platform.version,
 	height: Ti.Platform.displayCaps.platformHeight,

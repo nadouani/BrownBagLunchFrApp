@@ -22,29 +22,29 @@ function SessionsView(sessions){
 		
 		lblName = Ti.UI.createLabel({
 			text: session.title,
-			left: 6,
-			right: 6,
-			top: 6,
+			left: '6dp',
+			right: '6dp',
+			top: '6dp',
 			font: {
-                fontSize: 14,
+                fontSize: '14dp',
 				fontWeight: 'bold'
 			}
 		});
 		lblSummary = Ti.UI.createLabel({
 			text: session.summary,
-		    left: 6,
-            right: 6,
-            top: 6,
-			font: {fontSize: 12},
+		    left: '6dp',
+            right: '6dp',
+            top: '6dp',
+			font: {fontSize: '12dp'},
 			height: Ti.UI.SIZE
 		});
 		
 		view = Ti.UI.createView({
 			backgroundColor: '#FFF',
 			layout: 'vertical',
-			top: 4, 
-			left: 4,
-			right: 4,
+			top: '4dp', 
+			left: '4dp',
+			right: '4dp',
 			height: Ti.UI.SIZE
 		});
 		view.add(lblName);

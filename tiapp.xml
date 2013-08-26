@@ -46,4 +46,4 @@
         <target device="tizen">false</target>
     </deployment-targets>
     <sdk-version>3.1.2.GA</sdk-version>
-<property name="ti.deploytype">development</property></ti:app>
+<property name="ti.deploytype">test</property></ti:app>

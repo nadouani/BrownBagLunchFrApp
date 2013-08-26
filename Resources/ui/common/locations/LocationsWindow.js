@@ -27,11 +27,11 @@ function LocationsWindow() {
 		});
         image = Ti.UI.createImageView({
             backgroundColor: '#FFF',
-            height: 100,
-            image: location.picture.indexOf("http")===0 ? location.picture : ("http://www.brownbaglunch.fr/" + location.picture),
-            top: 6,
-            left: 6,
-            right: 6,
+            height: '100dp',
+            image: location.picture.indexOf("http")===0 ? location.picture : (MyApp.url + location.picture),
+            top: '6dp',
+            left: '6dp',
+            right: '6dp',
             bottom: 0
         });
         row.add(image);

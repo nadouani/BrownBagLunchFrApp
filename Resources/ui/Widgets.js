@@ -11,7 +11,7 @@ exports.createLink = function(title, url){
 		textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
 		left: 0,
 		color: MyApp.ui.barColor,
-		font: {fontSize: 12},
+		font: {fontSize: '12dp'},
 		text: title
 	});
 	link.addEventListener('click', function(){
