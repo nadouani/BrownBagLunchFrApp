@@ -17,6 +17,7 @@ function DetailsView(index, bagger){
     var topView = Ti.UI.createView({
         backgroundColor: 'transparent',
         layout: 'horizontal',
+        width: Ti.UI.FILL,
         height: Ti.UI.SIZE,
         top: '4dp'
     });
@@ -53,26 +54,30 @@ function DetailsView(index, bagger){
             fontWeight: 'bold',
             fontSize: '16dp'
         },
-        text: bagger.name
+        text: bagger.name,
+        color: '#000'
     }));
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
         font: {fontSize: '12dp'},
-        text: bagger.bio
+        text: bagger.bio,
+        color: '#000'
     }));
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
         font: {fontSize: '12dp'},
-        text: bagger.location
+        text: bagger.location,
+        color: '#000'
     }));
     
     detailsView.add(Ti.UI.createLabel({
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
         font: {fontSize: '12dp'},
-        text: '@' + bagger.twitter
+        text: '@' + bagger.twitter,
+        color: '#000'
     }));
     
     // Display baggers' sites
@@ -85,8 +90,9 @@ function DetailsView(index, bagger){
     // Display tags
     var tagView = Ti.UI.createView({
         layout: 'horizontal',
+        backgroundColor: 'transparent',
         height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE,
+        width: Ti.UI.FILL,
         top: '5dp',
         left: 0,
         bottom: '6dp'
@@ -112,10 +118,11 @@ function DetailsView(index, bagger){
             left: '4dp',
             font: {fontSize: '12dp'},
             backgroundColor: '#fff',
-            opacity: 0.3,
+            opacity: 0.6,
             width: Ti.UI.SIZE,
             horizontalWrap: false,
-            wordWrap: true
+            wordWrap: true,
+            color: '#000'
         });
         
         tagView.add(tag);

@@ -28,7 +28,8 @@ function SessionsView(sessions){
 			font: {
                 fontSize: '14dp',
 				fontWeight: 'bold'
-			}
+			},
+			color: '#000'
 		});
 		lblSummary = Ti.UI.createLabel({
 			text: session.summary,
@@ -36,6 +37,7 @@ function SessionsView(sessions){
             right: '6dp',
             top: '6dp',
 			font: {fontSize: '12dp'},
+            color: '#000',
 			height: Ti.UI.SIZE
 		});
 		
