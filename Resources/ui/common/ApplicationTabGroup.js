@@ -7,7 +7,7 @@ function ApplicationTabGroup(){
 	var citiesWindow = new CitiesWindow(); 
 	var baggersTab = Ti.UI.createTab({
 		title: 'Baggers',
-		icon: 'icons/baggers.png',
+		icon: '/images/icons/baggers.png',
 		window: citiesWindow
 	});
 	citiesWindow.containingTab = baggersTab;
@@ -17,7 +17,7 @@ function ApplicationTabGroup(){
 	var locationsWindow = new LocationsWindow();
 	var locationsTab = Ti.UI.createTab({
 		title : 'Locations',
-		icon: 'icons/locations.png',
+		icon: '/images/icons/locations.png',
 		window: locationsWindow
 	});
 	locationsWindow.containingTab = locationsTab;
