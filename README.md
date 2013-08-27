@@ -23,4 +23,3 @@ Android Screenshots
 <img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger1.png" width="320">&nbsp;
 
 <img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger3.png" width="320">
- 
