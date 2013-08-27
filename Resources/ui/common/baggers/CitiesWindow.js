@@ -14,22 +14,32 @@ function CitiesWindow() {
 	
 	// Prepare the data view content
 	var rows = [];
-	var countCities = MyApp.data.villes.length, city = null, row = null, image = null;
+	var countCities = MyApp.data.villes.length, 
+	   city = null, 
+	   row = null, 
+	   image = null,
+	   path = null;
 	
 	for(var i=0; i < countCities ; i++){
 		city = MyApp.data.villes[i]; 
-		
 		
 		row = Ti.UI.createTableViewRow({
             city: city,
             backgroundColor: '#E6E6E6',
             selectedBackgroundColor: '#FFF'
 		});
-		
+
+		path = city.ville_img.substr(city.ville_img.lastIndexOf("/")+1);
+        //path = city.ville_img.replace(path, "min/"+path);
+        
+        Ti.API.info(path);
+        
 		image = Ti.UI.createImageView({
             backgroundColor: '#FFF',
             height: '100dp',
-            image: MyApp.url + city.ville_img,
+            //image: MyApp.url + path,
+            //image: MyApp.url + city.ville_img,
+            image: '/images/villes/' + path,
             top: '6dp',
             left: '6dp',
             right: '6dp',

@@ -7,7 +7,7 @@ var data = {
             lng: 2.352222,
 
             baggers: [
-            	 {
+                 {
                     name: "Serge Stinckwich",
                     bio: "Enseignant-chercheur, développeur",
                     picture: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/011/381/16fa99c.jpg",
@@ -63,15 +63,15 @@ var data = {
                     contact: "nrichand@brownbaglunch.fr",
                     location: "La Défense et alentours uniquement",
                     sessions: [
-						{
+                        {
                             title: "Parlons d'agilité",
                             summary: "Vous êtes en train de vous intéresser à l'agilité et vous souhaitez échanger sur le sujet? Je vous propose un mix de retour d'expérience et de discussion pour que vous puissiez bien comprendre les enjeux, l'intérêt mais également les prérequis."
                         },
-						{
+                        {
                             title: "Agilité, un pas plus loin",
                             summary: "Vous avez mis en place Scrum ou Kanban (ou un mix maison) sur votre projet et vous commencer à stagner. Discutons ensemble des opportunités pour aller plus loin et franchir un nouveau cap pour sortir des produits d'exception!"
                         },
-						{
+                        {
                             title: "Dojo tests unitaires et TDD",
                             summary: "Je vous propose un Dojo pour mettre en pratique des tests unitaires en Java. Je compte sur vous pour m'aider à rajouter des tests sur une application existante et qui en a bien besoin! Buzzword à découvrir : test unitaire, fest assert, mockito, TDD, pair programming, pair hero, clean test, ..."
                         },
@@ -106,8 +106,8 @@ var data = {
                             summary: "Comment mettre en place du management visuel et Pourquoi? Une présentation des règles de base et des principes avec beaucoup d’images"
                         }
                         , {
-                        	title: "Penser un produit en mode Agile",
-                        	summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
+                            title: "Penser un produit en mode Agile",
+                            summary: "Du Lean Start Up, en passant par la création du backlog produit, un panorama de la création d'un produit en mode agile"
                         }
                     ],
                     tags: ["Agile", "Lean Startup", "Kanban"]
@@ -329,8 +329,8 @@ var data = {
                             summary: "Où il est question de montrer que l'industrialisation du code JavaScript est aujourd'hui aussi aisée qu'en Java : frameworks de tests, interfaçage avec Maven, intégration dans Jenkins, utilisation de Sonar pour l'analyse de la qualité."
                         },
                         {
-		                	title: "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
-                			summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
+                            title: "Du JavaScript propre ? Challenge Accepted! - Avec Julien Jakubowski",
+                            summary: "Ecrire du code JavaScript propre, c'est aujourd'hui possible. L'écosystème autour de ce langage a atteint une maturité suffisante pour se lancer dans le développement de larges applications basées sur ce langage. Cette présentation est un tour d'horizon de cet écosystème, pour que vous n'ayez plus peur de coder en JavaScript !"
                         }
                     ],
                     tags: ["JavaScript", "Usine logicielle"]
@@ -608,7 +608,7 @@ var data = {
                     ],
                     tags: ["Java", "Code"]
                 },
-  		        {
+                {
                     name: "Guillaume Tardif",
                     bio: "Consultant Java",
                     picture: "img/baggers/photo_guillaume.jpg",
@@ -647,8 +647,8 @@ var data = {
                            summary: "Comment livrer des fonctionnalités ambitieuses malgré le code existant sans aucun test ? Visite guidée au travers de retours d'expérience."
                         },
                         {
-			   title: "Domain-Driven Design dans un contexte legacy",
-                	   summary: "Un tour d'horizon d'aspects importants de DDD sous la forme d'un retour d'expérience dans le domaine de la finance"
+               title: "Domain-Driven Design dans un contexte legacy",
+                       summary: "Un tour d'horizon d'aspects importants de DDD sous la forme d'un retour d'expérience dans le domaine de la finance"
                         },
                         {
                            title: "Votre sujet sur-mesure",
@@ -861,7 +861,7 @@ var data = {
                     ],
                     tags: ["Agile", "Code", "Legacy", "TDD", "Test", "Clean Code", "Craftsmanship"]
                 },
-				{
+                {
                     name: "Fabrice Bournisien",
                     bio: "Responsable qualité web, spécialiste de l'automatisation de tests fonctionnels.",
                     picture: "https://si0.twimg.com/profile_images/1979322615/avatar.png",
@@ -916,7 +916,7 @@ var data = {
         },
         {
             name: "Rennes",
-            ville_img: "img/villes/BBL_BZH.png",
+            ville_img: "img/villes/BBL_BZH.jpg",
             lat:48.0686257,
             lng: -1.7253652,
 
@@ -1154,7 +1154,7 @@ var data = {
                 }
             ]
         },
-    	{
+        {
             name: "Lyon",
             ville_img: "img/villes/BBL_Lyon.jpg",
             lat:45.764043,
@@ -1167,9 +1167,9 @@ var data = {
                     websites: [
                         { title: "Blog perso", href: "http://hakanai.free.fr/" },
                         { title: "Localizeyourapps (fondateur)", href: "http://www.localizeyourapps.com/" },
-						{ title: "Hopwork (co-fondateur)", href: "http://www.hopwork.com/" },
-						{ title: "Lateral-Thoughts (co-fondateur)", href: "http://www.lateral-thoughts.com/" },
-						{ title: "Blog sur developpez.com", href: "http://hugo.developpez.com" }
+                        { title: "Hopwork (co-fondateur)", href: "http://www.hopwork.com/" },
+                        { title: "Lateral-Thoughts (co-fondateur)", href: "http://www.lateral-thoughts.com/" },
+                        { title: "Blog sur developpez.com", href: "http://hugo.developpez.com" }
                     ],
                     twitter: "hugolassiege",
                     contact: "hlassiege+bbl@gmail.com",
@@ -1292,7 +1292,7 @@ var data = {
                             title: "Boite à outil du développeur agile",
                             summary: "L'agilité prône un certain nombre de pratiques comme le pair programming, la revue de code et l'intégration continue. Je vous propose un tour d'horizon d'outils permettant de faciliter ces pratiques."
                         },
-			            {
+                        {
                             title: "Introduction à Gradle",
                             summary: "Maven a amené énormément de bonnes idées pour créer son build, Gradle capitalise sur ces pratiques pour offrir une alternative à Maven. Dans cette session pas de Maven Bashing mais une introduction à l'utilisation de Gradle au quotidien."
                         }
@@ -1339,7 +1339,7 @@ var data = {
         },
         {
             name: "Vannes",
-            ville_img: "img/villes/BBL_BZH.png",
+            ville_img: "img/villes/BBL_BZH.jpg",
             lat: 47.658236,
             lng: -2.760847,
 
@@ -1384,7 +1384,7 @@ var data = {
                 tags: ["Agile", "Lean", "Kanban", "Games", "Management", "Scrum"]
             }]
         },
-    	{
+        {
             name: "Grenoble",
             ville_img: "img/villes/BBL_Grenoble.jpg",
             lat:45.183,
@@ -1428,7 +1428,7 @@ var data = {
                     ],
                     tags: ["Java", "Web", "JavaScript", "Play", "Agile", "Scrum", "Ingénierie agile", "Test", "Tests unitaires", "TDD", "Usine logicielle", "Industrialisation" ]
                 },
-				{
+                {
                     name: "Laurent TARDIF",
                     bio: "CI addict, agiliste - PersistentSAS",
                     picture: "img/baggers/photo_LaurentTardif.jpg",
