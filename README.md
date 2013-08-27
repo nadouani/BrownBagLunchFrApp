@@ -12,9 +12,9 @@ iPhone Screenshots
 
 Android Screenshots
 
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/villes.jpg" width="320">
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-paris.jpg" width="320">
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-lyon.jpg" width="320">
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger1.jpg" width="320"> 
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger3.jpg" width="320"> 
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/villes.png" width="320">
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-paris.png" width="320">
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-lyon.png" width="320">
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger1.png" width="320"> 
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/bagger3.png" width="320"> 
  
