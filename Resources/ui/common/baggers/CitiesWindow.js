@@ -32,8 +32,6 @@ function CitiesWindow() {
 		path = city.ville_img.substr(city.ville_img.lastIndexOf("/")+1);
         //path = city.ville_img.replace(path, "min/"+path);
         
-        Ti.API.info(path);
-        
 		image = Ti.UI.createImageView({
             backgroundColor: '#FFF',
             height: '100dp',
