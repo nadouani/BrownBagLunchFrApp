@@ -10,7 +10,7 @@ function BaggersWindow(index, rowData, containingTab){
 		barColor: MyApp.ui.barColor,
 		barImage: 'blue-bg.png',
 		backgroundColor: 'transparent',
-		title: rowData.city.title
+		title: rowData.city.name
 	});	
 	
 	// Prepare the data view content
