@@ -21,7 +21,7 @@ iPhone Screenshots
 Android Screenshots
 
 <img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/villes.png" width="320">&nbsp;
-<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/lieux" width="320">&nbsp;
+<img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/lieux.png" width="320">&nbsp;
 
 <img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-paris.png" width="320">&nbsp;
 <img src="https://github.com/nadouani/BrownBagLunchFrApp/raw/master/doc/images/android/baggers-lyon.png" width="320">&nbsp;
