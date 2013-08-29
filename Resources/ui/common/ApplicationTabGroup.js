@@ -6,7 +6,7 @@ function ApplicationTabGroup(){
 	var CitiesWindow = require('/ui/common/baggers/CitiesWindow');
 	var citiesWindow = new CitiesWindow(); 
 	var baggersTab = Ti.UI.createTab({
-		title: 'Baggers',
+		title: 'Trouver un Bagger',
 		icon: '/images/baggers.png',
 		window: citiesWindow
 	});
@@ -16,7 +16,7 @@ function ApplicationTabGroup(){
 	var LocationsWindow = require('/ui/common/locations/LocationsWindow');
 	var locationsWindow = new LocationsWindow();
 	var locationsTab = Ti.UI.createTab({
-		title : 'Locations',
+		title : 'Trouver un Lieu',
 		icon: '/images/locations.png',
 		window: locationsWindow
 	});

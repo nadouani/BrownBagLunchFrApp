@@ -8,8 +8,7 @@ function CitiesWindow() {
 		barColor: MyApp.ui.barColor,
 		barImage: 'blue-bg.png',
 		backgroundColor: '#E6E6E6',
-		
-		title: 'Villes'
+		title: 'Trouver un Bagger'
 	});
 	
 	// Prepare the data view content

@@ -6,14 +6,15 @@ exports.createTag = function(bgConfig, labelConfig){
 };
 
 
-exports.createLink = function(title, url){
-	var link = Ti.UI.createLabel({
-		textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-		left: 0,
-		color: MyApp.ui.barColor,
-		font: {fontSize: '12dp'},
-		text: title
-	});
+exports.createLink = function(title, url, cfg){
+	var link = Ti.UI.createLabel(TiUtils.apply({
+        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+        left: 0,
+        color: MyApp.ui.barColor,
+        font: {fontSize: '12dp'},
+        text: title
+    }, cfg || {}));
+    
 	link.addEventListener('click', function(){
 		Ti.Platform.openURL(url);
 	});

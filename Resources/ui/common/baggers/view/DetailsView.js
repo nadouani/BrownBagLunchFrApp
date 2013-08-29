@@ -80,11 +80,16 @@ function DetailsView(index, bagger){
         color: '#000'
     }));
     
+    Ti.API.info(bagger.websites);
+    
     // Display baggers' sites
-    var link = null, site = null;
-    for(var i=0; i < bagger.websites.length; i++){
-        site = bagger.websites[i];
-        detailsView.add(Widgets.createLink(site.title, site.href));
+    if(!TiUtils.isEmpty(bagger.websites)){
+        var link = null, 
+            site = null;
+        
+        TiUtils.each(bagger.websites, function(site){
+            detailsView.add(Widgets.createLink(site.title, site.href));
+        });
     }
     
     // Display tags
