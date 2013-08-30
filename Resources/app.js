@@ -15,7 +15,7 @@ var MyApp = {
 	}
 };
 
-var TiUtils = require('/lib/ti-utils').TiUtils();
+var TiUtils = new (require('/lib/ti-utils-min').TiUtils)();
 
 (function() {
 	
