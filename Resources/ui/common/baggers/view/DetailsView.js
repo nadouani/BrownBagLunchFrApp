@@ -15,13 +15,11 @@ function DetailsView(index, bagger){
     
     // Create the top view
     var topView = Ti.UI.createView({
-        backgroundColor: 'transparent',
-        layout: 'horizontal',
+        layout: 'composite',
         width: Ti.UI.FILL,
         height: Ti.UI.SIZE,
         top: '4dp'
     });
-    self.add(topView);
 
     // Create the bagger image view
     var image = Ti.UI.createImageView({
@@ -39,16 +37,14 @@ function DetailsView(index, bagger){
     // Create the bagger details container view
     var detailsView = Ti.UI.createView({
         layout: 'vertical',
-        backgroundColor: 'transparent',
         width: Ti.UI.FILL,
         height: Ti.UI.SIZE,
-        left: '2dp',
-        top: '2dp'
+        left: '82dp',
+        top: '2dp',
+        bottom: 0
     });
-    topView.add(detailsView);
     
     detailsView.add(Ti.UI.createLabel({
-        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
         font: {
             fontWeight: 'bold',
@@ -58,7 +54,6 @@ function DetailsView(index, bagger){
         color: '#000'
     }));
     detailsView.add(Ti.UI.createLabel({
-        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
         left: 0,
         font: {fontSize: '12dp'},
         text: bagger.bio,
@@ -80,8 +75,6 @@ function DetailsView(index, bagger){
         color: '#000'
     }));
     
-    Ti.API.info(bagger.websites);
-    
     // Display baggers' sites
     if(!TiUtils.isEmpty(bagger.websites)){
         var link = null, 
@@ -91,11 +84,13 @@ function DetailsView(index, bagger){
             detailsView.add(Widgets.createLink(site.title, site.href));
         });
     }
+   
+    topView.add(detailsView);
+    self.add(topView);
     
     // Display tags
     var tagView = Ti.UI.createView({
         layout: 'horizontal',
-        backgroundColor: 'transparent',
         height: Ti.UI.SIZE,
         width: Ti.UI.FILL,
         top: '5dp',
@@ -117,7 +112,8 @@ function DetailsView(index, bagger){
             top: '2dp',
             width: Ti.UI.SIZE,
             height: Ti.UI.SIZE,
-            horizontalWrap: false
+            horizontalWrap: false,
+            layout: 'vertical'
         }, {
             text: ' ' + bagger.tags[i] + ' ',
             left: '4dp',
